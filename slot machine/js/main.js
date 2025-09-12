@@ -1,4 +1,4 @@
-let points = 100000000000
+let points = 1
 let power1 = 0
 let point = document.querySelector("#points")
 let nami = false

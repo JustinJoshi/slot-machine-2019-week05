@@ -3,14 +3,102 @@
     justify-content: center;
     align-items: center;
 } */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../img/op.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+.friend{
+    padding: 30px;
+}
+/* .friend *{
+    padding-bottom: 30px;
+} */
+
+.bigger{
+    font-size: 5rem;
+}
+
+#power3{
+    background-image: url('../img/nami.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.wid{}
+
+#power2{
+    background-image: url('../img/zoro.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+  
+}
+#power2 h4{
+    opacity: 1;
+}
+
+#power1{
+    background-image: url('../img/luffy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.pad{
+    padding: 20px;
+}
+
+#friends div{
+    background-color: rgba(255, 255, 255, 0.632);
+    border-radius: 20px;
+    font-size: 2rem;
+}
+
+.friend *{
+    color: rgb(0, 0, 0);
+}
+.friend{
+    background-color: rgba(255, 255, 255, 0.632);
+    border-radius: 20px;
+    font-size: 2rem;
+}
+
+.cont1{
+    background-color: rgba(255, 255, 255, 0.632);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    font-family: 'Pirata One';
+    font-size: 3rem;
+}
 
 .jus{
     display: flex;
     justify-content: start;
 }
+.center{
+    display: flex;
+    justify-content: center;
+}
 .alicen{
     display: flex;
     align-items: center;
+}
+.col{
+    flex-flow: column;
 }
 .gap{
     gap: 30px;
