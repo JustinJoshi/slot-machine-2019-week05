@@ -41,6 +41,11 @@ body{
     height: 400px;
   
 }
+
+.alibot{
+    display: flex;
+    align-items: end;
+}
 #power2 h4{
     opacity: 1;
 }
@@ -60,11 +65,11 @@ html{
     padding: 20px;
 }
 
-#friends div{
-    background-color: rgba(255, 255, 255, 0.632);
+#power1{
     border-radius: 20px;
-    font-size: 2rem;
 }
+
+
 
 .friend *{
     color: rgb(0, 0, 0);
@@ -74,6 +79,18 @@ html{
     border-radius: 20px;
     font-size: 2rem;
 }
+.white{
+        background-color: rgba(255, 255, 255, 0.232);
+    border-radius: 20px;
+    font-size: 2rem;
+}
+
+.third{
+    width: 33.3333%;
+    border-radius: 20px;
+}
+
+
 
 .cont1{
     background-color: rgba(255, 255, 255, 0.632);
@@ -130,15 +147,17 @@ html{
     align-items: center;
     flex-flow: row;
 }
-#friends div{
-    width: 33.3333%;
-}
+
 #friends img{
     width: 200px;
 }
 
 .one{
     width: 100px;
+}
+
+body{
+    height: 100vh;
 }
 
 .pieceCont{
@@ -148,8 +167,18 @@ html{
     align-items: center;
 }
 
+#friends{
+    margin-top: 200px;
+}
+
 .byeaj{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width:1990px){
+    body{
+        background-size: fill;
+    }
 }
