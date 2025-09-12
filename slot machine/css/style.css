@@ -1,7 +1,19 @@
-body{
+/* body{
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+.jus{
+    display: flex;
+    justify-content: start;
+}
+.alicen{
+    display: flex;
+    align-items: center;
+}
+.gap{
+    gap: 30px;
 }
 .cont{
     display: flex;
@@ -11,8 +23,45 @@ body{
 .cont div{
     width: 100px;
     border: 2px solid green;
-    height: 300px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#friends{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: row;
+}
+#friends div{
+    width: 33.3333%;
+}
+#friends img{
+    width: 200px;
+}
+
+.one{
+    width: 100px;
+}
+
+.pieceCont{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.byeaj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
