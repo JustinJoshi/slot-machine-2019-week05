@@ -61,7 +61,7 @@ body{
 }
 
 
-
+ 
 .friend{
     margin: 20px;
     margin-top: 200px;
@@ -127,6 +127,7 @@ body{
 
 .color{
     background-color: rgba(255, 255, 255, 0.625);
+    border-radius: 20px;
 }
 
 #friends{
