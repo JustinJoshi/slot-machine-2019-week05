@@ -26,6 +26,8 @@ body{
     font-size: 5rem;
 }
 
+
+
 #power3{
     background-image: url('../img/nami.png');
     background-repeat: no-repeat;
@@ -183,7 +185,7 @@ body{
         font-size: 40%;
     }
     .biggest{
-        height: 1000px;
+        
     }
 }
 @media (max-width: 1560px){
