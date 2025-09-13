@@ -64,7 +64,10 @@ body{
  
 .friend{
     margin: 20px;
-    margin-top: 200px;
+}
+
+.cont1{
+   margin-bottom: 200px;
 }
 
 .friend *{
@@ -128,6 +131,11 @@ body{
 .color{
     background-color: rgba(255, 255, 255, 0.625);
     border-radius: 20px;
+    text-align: center;
+}
+
+.color *{
+    padding-bottom: 20px;
 }
 
 #friends{
@@ -135,6 +143,8 @@ body{
     justify-content: start;
     align-items: center;
     flex-flow: row;
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 20px;
 }
 .friend{
     width: 33.3333%;
