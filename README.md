@@ -24,23 +24,26 @@ I'm not sure if my constructors are setup cleanly...
 ```
 
 
-My Awesome Project
+Can you acquire the one piece?
 
-One Piece Slot Machine game - Can you get enough points to reach the one piece? Asking for help from Luffy, Zoro, and Nami gives you powerups, and changes the way you play the game! Unlock each friend, and awaken them to show off their true power!
-![Check this out!](image.png)
+Can you get enough points to reach the one piece? Asking for help from Luffy, Zoro, and Nami gives you powerups, and changes the way you play the game! Unlock each friend, and awaken them to show off their true power!
+![Check this](image.png)
 
-Link to project: http://recruiters-love-seeing-live-demos.com/
+Live demo! https://canyougettheonepiece.netlify.app/
 
-alt tag
-How It's Made:
 
-Tech used: HTML, CSS, JavaScript, Framework of choice
+How It's Made
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write something. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+Tech used: HTML, CSS, JavaScript
+
+I had a lot of fun with this project! I considered what makes a game enjoyable. I aimed to create a challenge at the beginning, but quickly the gameplay evolves into something different! I utilized various variables, simple conditional logic, and the Math.random() function in JavaScript to achieve the main engine of the gameplay.  
+
 Optimizations
 
 (optional)
 
-You don't have to include this section but interviewers love that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are GREAT to bring up in interviews and you can use this section as reference when studying for technical interviews!
+If I had more time for this project, I wouldmake the win button a little better, and make sure that it doesn't push down the friends section. Also I would make the white backgorund in the friends section wrap around the friends more tightly when the screen shrinks in size.
+
 Lessons Learned:
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those whoa this is awesome or wow I actually did it! moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+
+I learned a lot about how simple conditional logic can go a long way. You really can make most anything you can think of with simple functions and variables! The fundamentals of coding always are important. I learned about event bubbling, and used it to make the "awaken" button not adopt the same behavior as its parent event listener, using the stopPropogation property on the event object.
