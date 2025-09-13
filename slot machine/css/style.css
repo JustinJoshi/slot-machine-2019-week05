@@ -60,10 +60,10 @@ html{
     padding: 20px;
 }
 
-#friends div{
-    background-color: rgba(255, 255, 255, 0.632);
-    border-radius: 20px;
-    font-size: 2rem;
+
+
+.friend{
+    background-color: rgba(173, 12, 12, 0.519);
 }
 
 .friend *{
@@ -124,13 +124,17 @@ html{
     flex-flow: column;
 }
 
+.color{
+    background-color: rgba(255, 255, 255, 0.625);
+}
+
 #friends{
     display: flex;
     justify-content: start;
     align-items: center;
     flex-flow: row;
 }
-#friends div{
+.friend{
     width: 33.3333%;
 }
 #friends img{
