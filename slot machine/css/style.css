@@ -56,9 +56,7 @@ html{
     font-size: 62.5%;
 }
 
-.pad{
-    padding: 20px;
-}
+
 
 #friends div{
     background-color: rgba(255, 255, 255, 0.632);
@@ -73,6 +71,7 @@ html{
     background-color: rgba(255, 255, 255, 0.632);
     border-radius: 20px;
     font-size: 2rem;
+    margin: 10px;
 }
 
 .cont1{
@@ -129,12 +128,18 @@ html{
     justify-content: start;
     align-items: center;
     flex-flow: row;
+    margin-top: 200px;
 }
 #friends div{
     width: 33.3333%;
 }
 #friends img{
     width: 200px;
+}
+
+
+body{
+    height: 100vh;
 }
 
 .one{
