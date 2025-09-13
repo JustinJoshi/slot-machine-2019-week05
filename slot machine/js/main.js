@@ -62,6 +62,8 @@ document.querySelector('#piece').addEventListener('click', win)
 document.querySelector("#power1").addEventListener('click', function () {
     if (points - 6000 < 0) {
         alert('You cannot spend that amount!')
+    }else if(mult <= 1){
+        alert('You are already as lucky as possible!')
     } else {
         mult -= 1
         points -= 6000
