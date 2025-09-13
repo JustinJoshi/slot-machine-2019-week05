@@ -1,4 +1,4 @@
-let points = 5000
+let points = 100000
 let power1 = 0
 let point = document.querySelector("#points")
 let nami = false
@@ -55,6 +55,7 @@ document.querySelector('#awakenNami').addEventListener('click', function (e) {
         namiMult = namiMult * 3
         namiIsDouble = true
         namiDoubleEffectIsOn = true
+        document.querySelector('#investment').innerText = `${investment}`
     }
 })
 document.querySelector('#piece').addEventListener('click', win)
