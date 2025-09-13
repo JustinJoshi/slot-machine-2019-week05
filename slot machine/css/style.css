@@ -56,14 +56,15 @@ html{
     font-size: 62.5%;
 }
 
-.pad{
-    padding: 20px;
+body{
+    height: 100vh;
 }
 
 
 
 .friend{
-    background-color: rgba(173, 12, 12, 0.519);
+    margin: 20px;
+    margin-top: 200px;
 }
 
 .friend *{
