@@ -11,6 +11,7 @@ body{
     background-image: url('../img/op.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
  
 }
 
@@ -67,7 +68,7 @@ body{
 }
 
 .cont1{
-   margin-bottom: 200px;
+   margin-bottom: 10%;
 }
 
 .friend *{
@@ -145,6 +146,7 @@ body{
     flex-flow: row;
     background-color: rgba(255, 255, 255, 0.363);
     border-radius: 20px;
+    
 }
 .friend{
     width: 33.3333%;
@@ -168,4 +170,48 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width:1850px){
+    #friends{
+        flex-flow: column;
+    }
+    .friend{
+        width: 60%;
+    }
+    html{
+        font-size: 40%;
+    }
+    .biggest{
+        height: 1000px;
+    }
+}
+@media (max-width: 1560px){
+
+}
+
+@media (max-width: 920px){
+    html{
+        font-size: 55%;
+    }
+
+}
+
+@media (max-width: 670px){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 511px){
+    html{
+        font-size: 45%;
+    }
+}
+
+
+@media (max-width: 460px){
+    html{
+        font-size: 40%;
+    }
 }
