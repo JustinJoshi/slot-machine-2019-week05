@@ -13,8 +13,8 @@ let namiDoubleMult = 10
 let namiDoubleEffectIsOn = false
 
 
-document.querySelector('h2').addEventListener('click', roll)
-document.querySelector('h3').addEventListener('click', roll1)
+document.querySelector('#button1').addEventListener('click', roll)
+document.querySelector('#button2').addEventListener('click', roll1)
 document.querySelector("#points").innerText = `${points}`
 document.querySelector('#awakenLuffy').addEventListener('click', function (e) {
     e.stopPropagation()
@@ -169,7 +169,7 @@ function roll1() {
 
         first.innerText = Math.floor(Math.random() * 4)
         second.innerText = Math.floor(Math.random() * 4)
-        third.innerText = Math.floor(Math.random() * 4)
+        third.innerText = Math.floor(Math.random() * 4) //from stackoverflow a while back. I remembered this
 
         let firstAns = +first.textContent
         let secondAns = +second.textContent

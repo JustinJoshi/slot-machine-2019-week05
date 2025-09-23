@@ -55,6 +55,12 @@ body{
     height: 400px;
 }
 
+button{
+    font-family: "Pirata One";
+    font-size: 4rem;
+    margin: 20px;
+}
+
 html{
     font-size: 62.5%;
 }
